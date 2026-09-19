@@ -13,6 +13,10 @@ body {
 }
 .header {
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+
     
 
 
@@ -34,5 +38,42 @@ body {
 }
 a {
     text-decoration: none;
+    color: #E5E7EB;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+
+}
+.hero-main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-second {
+    color: #E5E7EB;
+}
+.align-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex: 1;
+    
+
+}
+.img-placeholder {
+    background: lightslategray;
     color: white;
+    text-align: center;
+    padding: 65px;
+    
+}
+.hero-button {
+    display: flex;
+    align-self:flex-start;
+    background-color: #3882F6;
+    color: #F9FAF8;
 }
