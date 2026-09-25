@@ -5,7 +5,9 @@ body {
     flex-direction: column;
     justify-content:space-between;
     margin: 0;
+    min-width: 1000px;
 }
+
 .header-top {
     display: flex;
     justify-content: space-around;
@@ -68,12 +70,72 @@ a {
     background: lightslategray;
     color: white;
     text-align: center;
-    padding: 65px;
+    padding: 100px;
+    box-sizing: ;
     
 }
 .hero-button {
-    display: flex;
+    
     align-self:flex-start;
     background-color: #3882F6;
-    color: #F9FAF8;
+    color: white;
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 5px 20px;
+    font-weight: bold;
+    
+}
+.heading {
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 900;
+    color:#1F2937;
+    
+}
+
+    .item {
+    width: 140px;
+    height: 200px;
+    border: solid skyblue;
+    border-radius: 10px;
+}
+
+.info-item {
+    width: 140px;
+}
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 1000px;
+    display: flex;
+}
+
+.quote-content {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.thor {
+    font-size: 25px;
+    align-self: flex-end;
+    font-weight: bold;
 }
