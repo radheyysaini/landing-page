@@ -92,6 +92,7 @@ a {
     font-size: 36px;
     font-weight: 900;
     color:#1F2937;
+    margin: 40px;
     
 }
 
@@ -170,5 +171,10 @@ h2 {
     padding: 6px 24px;
 
 }
-
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: white;
+    padding: 32px 0;
+}
 
