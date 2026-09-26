@@ -7,6 +7,8 @@ A simple landing page built with HTML, CSS, and Flexbox.
 This project is a recreation of a landing page built as part of
 The Odin Project's Foundations curriculum.
 
+Live site: https://radheyysaini.github.io/landing-page/ 
+
 ## Built With
 
 - HTML
